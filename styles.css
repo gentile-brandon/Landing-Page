@@ -31,3 +31,23 @@ a {
 .intro-text {
     max-width: 300px;
 }
+.information h2 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.info-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+
+}
+.info-box {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
