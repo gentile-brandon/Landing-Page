@@ -64,9 +64,24 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
 }
 .credit {
     align-self: flex-end;
     font-weight: 700;
+    font-style: italic;
+}
+.support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 15px;
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #E5E7EB;
     font-style: italic;
 }
